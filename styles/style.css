@@ -58,6 +58,9 @@
   background-color: #316e4b;
   transition: all 0.3s;
 }
+.btn-s:hover {
+  border: 1px solid #316e4b;
+}
 /* navbar desing end  */
 /* hero section design start  */
 .hero {
@@ -66,7 +69,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../assets/hero-bg.png);
+  background-image: linear-gradient(
+      rgba(1, 11, 20, 0.267),
+      rgba(9, 10, 12, 0.159)
+    ),
+    url(../assets/hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
