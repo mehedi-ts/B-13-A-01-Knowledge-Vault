@@ -59,11 +59,10 @@
 .hero {
   max-width: 100vw;
   height: calc(100vh - 92px);
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/assets/hero-bg.png);
+  background-image: url(../assets/hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
